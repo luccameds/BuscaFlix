@@ -3,7 +3,7 @@ import React from 'react';
 export const Header = () => {
   return (
     <div className="flex flex-row items-center justify-between bg-[#121829] px-10 py-10 text-white">
-      <img src="./logo.svg" alt="logo" />
+      <img src="./logo.png" alt="logo" className="h-[30px] w-[30px]" />
       <div className="flex flex-row text-[#A8AEBF]">
         <p className="mx-[15px] font-bold">Filmes</p>
         <p className="mx-[15px] font-bold ">TV</p>

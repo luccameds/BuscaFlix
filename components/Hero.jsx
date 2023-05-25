@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from './Cards';
+import { exploreposters } from '@/constants';
 
 const Hero = () => {
   return (
@@ -16,7 +17,11 @@ const Hero = () => {
         <div className="my-[30px] text-[18px] text-[#767E94]">
           <p>120 Itens</p>
         </div>
-        <Cards />
+        <div className="flex w-full flex-row flex-wrap justify-between">
+          {exploreposters.map((feature) => (
+            <Cards key={feature.title} {...feature} />
+          ))}
+        </div>
       </div>
     </div>
   );

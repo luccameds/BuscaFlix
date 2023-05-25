@@ -2,17 +2,17 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <div className="px-10 py-10 bg-[#121829] text-white flex flex-row justify-between items-center">
+    <div className="flex flex-row items-center justify-between bg-[#121829] px-10 py-10 text-white">
       <img src="./logo.svg" alt="logo" />
       <div className="flex flex-row text-[#A8AEBF]">
-        <p className="mx-[15px] font-bold">Movies</p>
-        <p className="mx-[15px] font-bold ">TV Shows</p>
+        <p className="mx-[15px] font-bold">Filmes</p>
+        <p className="mx-[15px] font-bold ">TV</p>
         <div className="flex flex-row">
-          <p className="mx-[15px] font-bold">Suggest me</p>
+          <p className="mx-[15px] font-bold">Sugestões</p>
           <img
             src="./arrow-right.svg"
             alt="arrow-right"
-            className="w-[20px] h-[20px]"
+            className="h-[20px] w-[20px]"
           />
         </div>
       </div>

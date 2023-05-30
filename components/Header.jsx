@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="flex flex-row items-center justify-between bg-[#121829] px-10 py-10 text-white">
       <img src="./logo.png" alt="logo" className="h-[30px] w-[30px]" />
@@ -19,3 +19,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
